@@ -23,20 +23,20 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/repairs" element={<RepairServices />} />
-          <Route path="/location" element={<Location />} />
-          <Route path="/customer" element={<CustomerService />} />
-          <Route path="/tires" element={<Tires />} />
-          <Route path="/guarantees" element={<Guarantees />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/story" element={<Story />} />
-          <Route path="/faq-page" element={<Faq />} />
-          <Route path="/owner" element={<Owner />} />
-          <Route path="/shop" element={<OurShop />} />
-          <Route path="/appointments" element={<Appointments/>} />
+          <Route exact path="/tire-network-react/" element={<Home />} />
+          <Route path="/tire-network-react/careers" element={<Careers />} />
+          <Route path="/tire-network-react/contact-us" element={<ContactUs />} />
+          <Route path="/tire-network-react/repairs" element={<RepairServices />} />
+          <Route path="/tire-network-react/location" element={<Location />} />
+          <Route path="/tire-network-react/customer" element={<CustomerService />} />
+          <Route path="/tire-network-react/tires" element={<Tires />} />
+          <Route path="/tire-network-react/guarantees" element={<Guarantees />} />
+          <Route path="/tire-network-react/team" element={<Team />} />
+          <Route path="/tire-network-react/story" element={<Story />} />
+          <Route path="/tire-network-react/faq-page" element={<Faq />} />
+          <Route path="/tire-network-react/owner" element={<Owner />} />
+          <Route path="/tire-network-react/shop" element={<OurShop />} />
+          <Route path="/tire-network-react/appointments" element={<Appointments/>} />
         </Routes>
       </div>
     </Router>
