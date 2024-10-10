@@ -1,7 +1,7 @@
 function Owner() {
     return (
         <div>
-            <h2>Meet The Owner</h2>
+            <h2 className="color-heading">Meet The Owner</h2>
         </div>
     )
 }

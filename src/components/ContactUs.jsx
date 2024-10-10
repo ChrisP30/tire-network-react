@@ -1,7 +1,7 @@
 function ContactUs() {
     return (
         <div>
-            <h2>Contact Us</h2>
+            <h2 className="color-heading">Contact Us</h2>
         </div>
     )
 }

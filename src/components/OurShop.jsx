@@ -1,7 +1,7 @@
 function OurShop() {
     return (
         <div>
-            <h2>Our Shop</h2>
+           <h2 className="color-heading">Our Shop</h2>
         </div>
     )
 }

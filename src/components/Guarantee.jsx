@@ -1,7 +1,7 @@
 function Guarantees() {
     return (
         <div>
-            <h2>Guarantees</h2>
+            <h2 className="color-heading">Gurantee</h2>
         </div>
     )
 }

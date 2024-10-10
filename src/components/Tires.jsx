@@ -1,7 +1,7 @@
 function Tires() {
     return (
         <div>
-            <h2>Tires</h2>
+            <h2 className="color-heading">Buy Tires</h2>
         </div>
     )
 }

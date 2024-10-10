@@ -1,7 +1,7 @@
 function Faq() {
     return (
         <div>
-            <h2>FAQs</h2>
+            <h2 className="color-heading">FAQs</h2>
         </div>
     )
 }

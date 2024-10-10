@@ -1,7 +1,7 @@
 function Location() {
     return (
         <div>
-            <h2>Location</h2>
+            <h2 className="color-heading">Location</h2>
         </div>
     )
 }

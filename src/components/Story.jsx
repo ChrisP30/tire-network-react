@@ -1,7 +1,7 @@
 function Story() {
     return (
         <div>
-            <h2>Our Story</h2>
+            <h2 className="color-heading">About Us</h2>
         </div>
     )
 }

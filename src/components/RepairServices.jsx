@@ -1,6 +1,6 @@
 function RepairServices() {
     return (
-        <h2>Repair Services</h2>
+        <h2 className="color-heading">Services</h2>
     )
 }
 

@@ -1,7 +1,7 @@
 function Team() {
     return (
         <div>
-            <h2>Our Team</h2>
+            <h2 className="color-heading">Meet The Team</h2>
         </div>
     )
 }
