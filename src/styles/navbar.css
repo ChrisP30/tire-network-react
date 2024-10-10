@@ -1,0 +1,273 @@
+.logo {
+    background-image: url('/images/tire-network-logo-1.png'); 
+    height: 80px;
+    width: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid rgb(9, 90, 202);
+    cursor: pointer;
+}
+
+.navbar-medium-screen-container {
+    display: none;
+}
+
+.navbar-mobile-screen-container {
+    display: none;
+}
+
+.navbar-wide-screen-top {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    align-items: center;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4); 
+    border-bottom: 3px solid rgb(9, 90, 202);
+    justify-content: space-between;
+}
+
+.business-list li {
+    color: white;
+    list-style-type: none;
+    margin: 3px 0;
+    font-size: 0.8rem;
+}
+
+.business-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hours-list li {
+    color: white;
+    list-style-type: none;
+    margin: 3px 0;
+    font-size: 0.8rem;
+}
+.hours-list {
+    z-index: 20;
+    position: relative;
+}
+
+.hours-list-main {
+    display: flex;
+    align-items: center;
+}
+
+.hour-items {
+    list-style-type: none;
+    height: 20px;
+    width: 100%;
+    transition: 0.2s ease;
+    font-size: 1rem !important;
+    margin: 10px 0 10px 0 !important;
+    padding: 10px 0;
+}
+
+.hour-items:hover {
+    background-color: black;
+    color: white;
+}
+
+.hours-list-main img {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.show-hours-container {
+    background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+    width: 100%;
+    z-index: 20;
+    height: 350px;
+    margin-top: -10px;
+    max-width: 350px;
+    border: 2px solid white;
+}
+
+.navbar-top-info-container {
+    display: flex;
+    background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+    height: 100px;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.business-info-container {
+    margin-bottom: 10px;
+}
+
+.navbar-wide-screen-bottom h3 {
+    color: black;
+    transition: 0.2s ease;
+}
+
+.navbar-wide-screen-bottom h3:hover {
+    color: rgb(9, 90, 202);
+}
+
+.navbar-wide-screen-bottom {
+    height: 80px;
+    width: 100%;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+
+}
+
+.nav-item-content {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav-item-content h3 {
+    font-size: 1rem;
+}
+
+.nav-item-content-container ul {
+    height: 150px;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    position: absolute;
+    width: 200px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white; 
+    z-index: 100;
+}
+
+.nav-item-content-container ul li {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    height: 35px;
+    width: 97%;
+    align-items: center;
+    transition: 0.2s ease;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-item-content-container ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.nav-item-content-container ul li a:hover {
+    color: black !important;
+}
+
+.nav-item-content-container ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-item-content img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.nav-item-transition-enter {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+/* End state for entering */
+.nav-item-transition-enter-active {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: opacity 300ms, transform 300ms;
+    transform-origin: top; 
+}
+
+/* Start state for exiting */
+.nav-item-transition-exit {
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: top; 
+}
+
+/* End state for exiting */
+.nav-item-transition-exit-active {
+    opacity: 0;
+    transform: scaleY(0);
+    transition: opacity 300ms, transform 300ms;
+    transform-origin: top; 
+}
+
+.follow-us-content img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px 0 5px;
+    cursor: pointer;
+}
+
+.follow-us-content h3 {
+    font-size: 1rem;
+}
+
+.follow-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hour-transition-enter {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.hour-transition-enter-active {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: opacity 300ms, transform 300ms;
+    transform-origin: top; 
+}
+
+.hour-transition-exit {
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: top; 
+}
+
+.hour-transition-exit-active {
+    opacity: 0;
+    transform: scaleY(0);
+    transition: opacity 300ms, transform 300ms;
+    transform-origin: top; 
+}
+
+.appointment-link {
+    text-decoration: none;
+}
+
+.links {
+    width: 100%;
+}
+
+.phone-text-img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}

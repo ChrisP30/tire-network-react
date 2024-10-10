@@ -1,0 +1,128 @@
+@media screen and (max-width: 550px) {
+    .navbar-medium-screen-container {
+        display: none;
+    }
+
+    .navbar-mobile-screen-container {
+        height: 185px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-mobile-screen-top {
+        background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+        height: 125px;
+        width: 100%;
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+        border-bottom: 3px solid rgb(9, 90, 202);
+    }
+
+    .navbar-mobile-screen-bottom {
+        background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+    }
+
+    .contact-text-container-mobile {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .contact-text-container-mobile h3 {
+        margin-right: 20px;
+    }
+
+    .contact-items-container-mobile {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .contact-items-container-mobile img {
+        width: 20px;
+        height: 20px;
+        margin: 5px 15px 0 15px;
+        cursor: pointer;
+    }
+
+    .contact-mobile-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .hamburger-mobile span {
+        width: 25px;
+        height: 2px;
+        margin: 2px 0 2px 0;
+        background-color: black;
+    }
+
+    .logo-small-container {
+        width: 100%;
+        height: 123px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-small {
+        background-image: url('/images/tire-network-logo-1.png');
+        height: 50px;
+        width: 190px;
+        border: 3px solid rgb(9, 90, 202);
+        padding: 15px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .mobile-sidebar {
+        width: 100%;
+        height: 100vh;
+        background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+        top: 0;
+        right: 0;
+        position: fixed;
+    }
+
+    .mobile-sidebar-enter {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+      
+      /* State at the end of entering (after entering, but before entered) */
+    .mobile-sidebar-enter-active {
+        transform: translateX(0);
+        transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+        opacity: 1;
+    }
+      
+      /* Initial state (exit) */
+    .mobile-sidebar-exit {
+        transform: translateX(0);
+        opacity: 1;
+    }
+      
+      /* State at the end of exiting (after exiting, but before exited) */
+    .mobile-sidebar-exit-active {
+        transform: translateX(100%);
+        opacity: 0;
+        transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    }
+}

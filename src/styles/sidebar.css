@@ -1,0 +1,171 @@
+.mobile-sidebar {
+    overflow: scroll;
+    z-index: 100;
+}
+
+.medium-sidebar {
+    overflow: scroll;
+}
+
+
+
+.sidebar-main-container {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    min-height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.sidebar-main-container h2 {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.sidebar-logo {
+    background-image: url('/images/tire-network-logo-1.png'); 
+    height: 90px;
+    width: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.sidebar-info-content {
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 225px;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.our-shop-main-container {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 20px 0 20px 0;
+}
+
+.services-main-container {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 20px 0 20px 0;
+}
+
+.about-main-container {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 20px 0 20px 0;
+}
+
+.contact-main-container {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 20px 0 20px 0;
+}
+
+.appointments-item-link {
+    text-decoration: none;
+}
+
+.appointments-main-container {
+    margin: 20px 0 20px 0;
+}
+
+.sidebar-sub-items {
+    width: 100%;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sidebar-sub-item {
+    list-style-type: none;
+    transition: 0.3s ease-in-out;
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-sub-item-link {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out, color 0s ease-in-out;
+    height: 40px;
+}
+
+.sidebar-sub-item-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.sidebar-sub-items-enter {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.sidebar-sub-items-enter-active {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: opacity 200ms, transform 200ms;
+    transform-origin: top; 
+}
+.sidebar-sub-items-exit {
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: top; 
+}
+.sidebar-sub-items-exit-active {
+    opacity: 0;
+    transform: scaleY(0);
+    transition: opacity 200ms, transform 200ms;
+    transform-origin: top; 
+}
+
+@media screen and (max-width: 300px) {
+    .sidebar-logo {
+        width: 175px;
+        height: 60px;
+    }
+
+    .sidebar-info-content {
+        width: 175px;
+    }
+
+    .sidebar-main-container h2 {
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    .sidebar-sub-item {
+        font-size: 0.6rem;
+    }
+}
