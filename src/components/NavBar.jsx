@@ -83,7 +83,7 @@ function NavBar() {
         <>
             <div className='navbar-wide-screen-container'>
                 <nav className="navbar-wide-screen-top">
-                    <Link to="/">
+                    <Link to="/tire-network-react/">
                         <div className='logo'>
                         </div>
                     </Link>
